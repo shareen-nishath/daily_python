@@ -1,6 +1,8 @@
 n = 5
-letters = "ABCDEFG"
-for i in range(1, n+1):   
-    for j in range(i):     
-        print(letters[j], end="")
+
+for i in range(1, n + 1):
+    ch = ord('A')  
+    for j in range(i):
+        print(chr(ch), end="")
+        ch += 1
     print()
